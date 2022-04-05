@@ -14,7 +14,7 @@ $ git clone https://github.com/PINTO0309/HSE_2ndSemester_project
 $ cd HSE_2ndSemester_project
 $ wget https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino/releases/download/v1.0.2/saved_model_224x224.tar.gz
 $ tar -zxvf saved_model_224x224.tar.gz && rm saved_model_224x224.tar.gz
-$ pip install -r requirement.txt
+$ pip install -r requirements.txt
 
 $ python3 demo.py
 ```
