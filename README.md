@@ -8,17 +8,18 @@ https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino
 **For academic purposes in partnership of the Higher School of Economics Nizhny Novgorod**
 **Online Master of Computer Vision** 
 
-## 1. Usage
+## Starting the demo
 ```bash
-$ git clone https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino
-$ cd HeadPoseEstimation-WHENet-yolov4-onnx-openvino
+$ git clone https://github.com/PINTO0309/HSE_2ndSemester_project
+$ cd HSE_2ndSemester_project
 $ wget https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino/releases/download/v1.0.2/saved_model_224x224.tar.gz
 $ tar -zxvf saved_model_224x224.tar.gz && rm saved_model_224x224.tar.gz
+$ pip install -r requirement.txt
 
-$ python3 demo_video.py
+$ python3 demo.py
 ```
 ```bash
-usage: demo_video.py \
+usage: demo.py \
 [-h] \
 [--whenet_mode {onnx,openvino}] \
 [--device DEVICE] \
@@ -34,14 +35,3 @@ optional arguments:
   --height_width HEIGHT_WIDTH
       {H}x{W} Default: 480x640
 ```
-
-## 2. Reference
-1. https://github.com/Ascend-Research/HeadPoseEstimation-WHENet
-2. https://github.com/AlexeyAB/darknet
-3. https://github.com/jkjung-avt/yolov4_crowdhuman
-4. https://github.com/linghu8812/tensorrt_inference/tree/master/Yolov4
-5. https://github.com/Tianxiaomo/pytorch-YOLOv4
-6. https://github.com/PINTO0309/PINTO_model_zoo
-7. https://github.com/PINTO0309/openvino2tensorflow
-8. [Exporting WHENet](https://zenn.dev/pinto0309/scraps/1849b6909db13b)
-9. [Darknet to ONNX to OpenVINO to TensorFlow to TFLite and Others](https://zenn.dev/pinto0309/scraps/b33883e3951605)
