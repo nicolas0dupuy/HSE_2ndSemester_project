@@ -1,0 +1,6 @@
+pip >= 19.0.3
+numpy
+opencv-python
+onnxruntime
+onnxruntime-gpu
+numba

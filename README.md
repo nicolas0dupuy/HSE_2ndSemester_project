@@ -1,7 +1,12 @@
-# HeadPoseEstimation-WHENet-yolov4-onnx-openvino
+# COPY of the HeadPoseEstimation-WHENet-yolov4-onnx-openvino
 ONNX, OpenVINO, TFLite, TensorRT, EdgeTPU, CoreML, TFJS, YOLOv4/YOLOv4-tiny-3L
 
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/33194443/141761520-28038c2a-e89a-4887-a9de-0fdaa972005b.gif)
+## Original repository
+https://github.com/PINTO0309/HeadPoseEstimation-WHENet-yolov4-onnx-openvino
+
+
+**For academic purposes in partnership of the Higher School of Economics Nizhny Novgorod**
+**Online Master of Computer Vision** 
 
 ## 1. Usage
 ```bash
